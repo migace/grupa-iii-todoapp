@@ -1,0 +1,65 @@
+h1 {
+  font-size: 48px;
+  text-decoration: underline;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.wrapper {
+  width: 600px;
+  margin: 0 auto;
+}
+
+.input-wrapper {
+  display: flex;
+  gap: 16px;
+  margin-bottom: 24px;
+}
+
+.input-wrapper input {
+  flex: 1;
+  height: 40px;
+  padding: 0 16px;
+  font-size: 16px;
+  border-radius: 8px;
+}
+
+.input-wrapper button {
+  padding: 0 20px;
+  background: rgb(35, 190, 35);
+  border: 0;
+  color: #fff;
+  border-radius: 8px;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  cursor: pointer;
+  transition: background ease-in-out 200ms;
+}
+
+.input-wrapper button:hover {
+  background: rgb(38, 233, 38);
+}
+
+.todo-item {
+  border-bottom: 2px solid #666;
+  font-size: 20px;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.todo-item button {
+  background: transparent;
+  border: 1px solid transparent;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.todo-item button:hover {
+  border-color: #666;
+}
+
+.todo-item.done {
+  background-color: rgba(32, 193, 32, 0.5);
+}
